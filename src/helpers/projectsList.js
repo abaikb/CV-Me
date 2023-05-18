@@ -1,60 +1,63 @@
-import project01 from "./../img/projects/01.jpg";
-import project01Big from "./../img/projects/01-big.jpg";
+import project01 from "./../img/projects/01.png";
+import project01Big from "./../img/projects/01-big.png";
 
-import project02 from "./../img/projects/02.jpg";
-import project02Big from "./../img/projects/02-big.jpg";
+import project02 from "./../img/projects/02.png";
+import project02Big from "./../img/projects/02-big.png";
 
-import project03 from "./../img/projects/03.jpg";
-import project03Big from "./../img/projects/03-big.jpg";
+import project03 from "./../img/projects/03.png";
+import project03Big from "./../img/projects/03-big.png";
 
-import project04 from "./../img/projects/04.jpg";
-import project04Big from "./../img/projects/04-big.jpg";
+import project04 from "./../img/projects/06.png";
+import project04Big from "./../img/projects/06-big.png";
 
-import project05 from "./../img/projects/05.jpg";
-import project05Big from "./../img/projects/05-big.jpg";
+import project05 from "./../img/projects/05.png";
+import project05Big from "./../img/projects/05-big.png";
 
-import project06 from "./../img/projects/06.jpg";
-import project06Big from "./../img/projects/06-big.jpg";
+import project06 from "./../img/projects/04.png";
+import project06Big from "./../img/projects/04-big.png";
 
 const projects = [
 	{
-		title: 'Gaming streaming portal',
-		skills: 'React, Node.js, MongoDB',
+		title: "Volunteer's spot",
+		skills: "React, AJAX",
 		img: project01,
 		imgBig: project01Big,
-		gitHubLink: 'https://github.com',
-	},
+		gitHubLink: "https://github.com/abaikb/final-exzam"
+	  },	  
 	{
-		title: 'Video service',
+		title: 'Drag & Drop:',
 		img: project02,
 		imgBig: project02Big,
-		skills: 'React, PHP, MySql',
-		gitHubLink: 'https://github.com',
+		skills: 'JavaScript, HTML 5, CSS 3',
+		gitHubLink: 'https://codepen.io/abaikb/pen/VwEwNLZ',
 	},
 	{
-		title: 'Video portal',
+		title: 'BOOK TRACKER',
 		img: project03,
 		imgBig: project03Big,
-		skills: 'Vue JS, Node.js, MongoDB',
-		gitHubLink: 'https://github.com',
+		skills: 'Work in pure JavaScript CRUD system through fake api, AJAX',
+		gitHubLink: 'https://github.com/abaikb/book-tracker-abai',
 	},
 	{
-		title: 'Dating app',
+		title: "Photographer's Portfolio",
 		img: project04,
 		imgBig: project04Big,
-		skills: 'React Native',
+		skills: 'site layout with HTML5, CSS 3, adaptation for desktop, tablet, mobile ',
+		gitHubLink: 'https://github.com/abaikb/js-portfoli',
 	},
 	{
-		title: 'Landing',
+		title: 'Slides City',
 		img: project05,
 		imgBig: project05Big,
-		skills: 'HTML, SCSS, JS',
+		skills: 'JavaScript , HTML 5, CSS 3 ,animation',
+		gitHubLink: 'https://codepen.io/abaikb/pen/XWxWNoM',
 	},
 	{
-		title: 'Gaming community',
+		title: 'Back Timer',
 		img: project06,
 		imgBig: project06Big,
-		skills: 'React, PHP, MySql',
+		skills: 'Reverse timer for sites for various promotions ,React',
+		gitHubLink: 'https://github.com/abaikb/book-tracker-abai',
 	},
 ];
 
