@@ -1,9 +1,11 @@
 import "./style.css";
+import photoMe from"../../img/photo-output.png"
 
 const Header = () => {
   return (
     <header className="header">
       <div className="header__wrapper">
+        <img className="photoMe" src={photoMe} alt="" />
         <h1 className="header__title">
           <strong>
             Hi, my name is <em>ABAI</em>

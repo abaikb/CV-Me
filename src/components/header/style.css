@@ -48,3 +48,10 @@
 .header__text p + p {
 	margin-top: 0.5em;
 }
+
+.photoMe {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 30px;
+}
