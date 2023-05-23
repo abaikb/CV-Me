@@ -1,5 +1,5 @@
 import "./style.css";
-import photoMe from"../../img/photo-output.png"
+import photoMe from"../../img/abai.png"
 
 const Header = () => {
   return (
@@ -17,6 +17,9 @@ const Header = () => {
         </div>
         <a href="https://docs.google.com/document/d/1QKzrBanWnml8JYkkm6lkw9g6IkoI2MrZ1JExPt0bbBc/export?format=pdf" className="btn">
           Download СV
+        </a>
+        <a href="https://docs.google.com/document/d/1wnORs0jfv_l-XUNGz0anEbr1_20X4TCOxGKa1KUmDjk/export?format=pdf" className="btn">
+          Скачать СV
         </a>
       </div>
     </header>
