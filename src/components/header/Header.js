@@ -7,7 +7,7 @@ const Header = () => {
         {/* <img className="photoMe" src={photoMe} alt="" /> */}
         <h1 className="header__title">
           <strong>
-            Hi, my name is <em>ABAI</em>
+            Hi, my name is ABAI
           </strong>
           <br />a frontend developer
         </h1>
