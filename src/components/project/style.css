@@ -1,12 +1,16 @@
 .project {
 	max-width: 370px;
+	height: auto;
 	background-color: var(--project-card-bg);
 	box-shadow: var(--box-shadow);
 	border-radius: 10px;
+	padding: 5px;
 }
 
 .project__img {
+	height: 200px;
 	border-radius: 10px;
+	object-fit: cover;
 }
 
 .project__title {
