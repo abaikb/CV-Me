@@ -22,7 +22,9 @@ const projects = [
 		skills: "React, AJAX",
 		img: project01,
 		imgBig: project01Big,
-		gitHubLink: "https://github.com/abaikb/final-exzam"
+		gitHubLink: "https://github.com/abaikb/final-exzam",
+		deployLink: "https://final-exzam-s429.vercel.app/"
+		
 	  },	  
 	{
 		title: 'Drag & Drop:',
@@ -30,6 +32,7 @@ const projects = [
 		imgBig: project02Big,
 		skills: 'JavaScript, HTML 5, CSS 3',
 		gitHubLink: 'https://codepen.io/abaikb/pen/VwEwNLZ',
+		deployLink: "https://codepen.io/abaikb/pen/VwEwNLZ/"
 	},
 	{
 		title: 'BOOK TRACKER',
@@ -37,6 +40,8 @@ const projects = [
 		imgBig: project03Big,
 		skills: 'Work in pure JavaScript CRUD system through fake api, AJAX',
 		gitHubLink: 'https://github.com/abaikb/book-tracker-abai',
+		deployLink: "https://book-tracker-abai.vercel.app/"
+
 	},
 	{
 		title: "Photographer's Portfolio",
@@ -44,6 +49,7 @@ const projects = [
 		imgBig: project04Big,
 		skills: 'site layout with HTML5, CSS 3, adaptation for desktop, tablet, mobile ',
 		gitHubLink: 'https://github.com/abaikb/js-portfoli',
+		deployLink: "https://js-portfoli.vercel.app/"
 	},
 	{
 		title: 'Slides City',
@@ -51,6 +57,8 @@ const projects = [
 		imgBig: project05Big,
 		skills: 'JavaScript , HTML 5, CSS 3 ,animation',
 		gitHubLink: 'https://codepen.io/abaikb/pen/XWxWNoM',
+		deployLink: "https://codepen.io/abaikb/pen/XWxWNoM"
+
 	},
 	{
 		title: 'Back Timer',
@@ -58,6 +66,8 @@ const projects = [
 		imgBig: project06Big,
 		skills: 'Reverse timer for sites for various promotions ,React',
 		gitHubLink: 'https://github.com/abaikb/book-tracker-abai',
+		deployLink: "https://codepen.io/abaikb/pen/XWxWNoM"
+
 	},
 ];
 

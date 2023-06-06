@@ -7,6 +7,7 @@ const BtnGitHub = ({ link }) => {
 			<img src={gitHubIcon} alt="" />
 			GitHub repo
 		</a>
+		
 	);
 };
 
