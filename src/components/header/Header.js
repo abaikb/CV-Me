@@ -14,7 +14,7 @@ const Header = () => {
         <div className="header__text">
           <p>with a passion for learning and creating.</p>
         </div>
-        <a href="https://docs.google.com/document/d/1QKzrBanWnml8JYkkm6lkw9g6IkoI2MrZ1JExPt0bbBc/export?format=pdf" className="btn">
+        <a href="https://docs.google.com/document/d/1u7UKDKvKVOk-Wl3fZYhVhALC5mLhH0igZU24JZ-Hl1A/export?format=pdf" className="btn">
           Download СV
         </a>
         <a href="https://docs.google.com/document/d/1wnORs0jfv_l-XUNGz0anEbr1_20X4TCOxGKa1KUmDjk/export?format=pdf" className="btn">
