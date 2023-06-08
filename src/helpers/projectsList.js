@@ -16,7 +16,21 @@ import project05Big from "./../img/projects/05-big.png";
 import project06 from "./../img/projects/04.png";
 import project06Big from "./../img/projects/04-big.png";
 
+import project07 from "./../img/projects/07.png";
+import project07Big from "./../img/projects/07-big.png";
+
+
+
+
 const projects = [
+	{
+		title: "Masaka Menu",
+		skills: " React JS, CSS,React Router, npm , Github",
+		img: project07,
+		imgBig: project07Big,
+		gitHubLink: "https://github.com/abaikb/masaka-sushi",
+		deployLink: "https://masaka-sushi.vercel.app/"
+	  },	  
 	{
 		title: "Volunteer's spot",
 		skills: "React, AJAX",
@@ -57,15 +71,6 @@ const projects = [
 		imgBig: project05Big,
 		skills: 'JavaScript , HTML 5, CSS 3 ,animation',
 		gitHubLink: 'https://codepen.io/abaikb/pen/XWxWNoM',
-		deployLink: "https://codepen.io/abaikb/pen/XWxWNoM"
-
-	},
-	{
-		title: 'Back Timer',
-		img: project06,
-		imgBig: project06Big,
-		skills: 'Reverse timer for sites for various promotions ,React',
-		gitHubLink: 'https://github.com/abaikb/book-tracker-abai',
 		deployLink: "https://codepen.io/abaikb/pen/XWxWNoM"
 
 	},

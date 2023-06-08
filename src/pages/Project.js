@@ -1,6 +1,7 @@
 import {useParams} from "react-router-dom";
 import BtnGitHub from "../components/btnGitHub/BtnGitHub";
 import {projects} from "./../helpers/projectsList"
+import BtnWebSite from "../components/btnWebSite/BtnWebSite";
 
 const Project = () => {
 	const {id} = useParams();
@@ -24,6 +25,9 @@ const Project = () => {
 
 					{project.gitHubLink && (
 						<BtnGitHub link={project.gitHubLink} />
+					)}
+					{project.deployLink && (
+						<BtnWebSite link={project.deployLink} />
 					)}
 				</div>
 			</div>

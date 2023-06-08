@@ -6,8 +6,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
-	background-color: #577679;
 	background-image: url('./../../img/header-bg.png');
 	background-repeat: no-repeat;
 	background-size: auto;
