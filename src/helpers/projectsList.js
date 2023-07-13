@@ -1,57 +1,38 @@
-import project01 from "./../img/projects/01.png";
-import project01Big from "./../img/projects/01-big.png";
 
-import project02 from "./../img/projects/02.png";
-import project02Big from "./../img/projects/02-big.png";
-
-import project03 from "./../img/projects/03.png";
-import project03Big from "./../img/projects/03-big.png";
-
-import project04 from "./../img/projects/06.png";
-import project04Big from "./../img/projects/06-big.png";
-
-import project05 from "./../img/projects/05.png";
-import project05Big from "./../img/projects/05-big.png";
-
-import project06 from "./../img/projects/04.png";
-import project06Big from "./../img/projects/04-big.png";
-
-import project07 from "./../img/projects/07.png";
-import project07Big from "./../img/projects/07-big.png";
 
 
 
 
 const projects = [
 	{
+		title: "PCK Банк",
+		skills: " React JS, Styled module,React Router, Axios, AJAX,  npm , Github",
+		img: "https://i.ibb.co/7jqLW8W/2023-07-13-12-45-11.png",
+		imgBig: "https://i.ibb.co/7jqLW8W/2023-07-13-12-45-11.png",
+		gitHubLink: "https://github.com/abaikb/RSK-project",
+		deployLink: "https://rsk-project.vercel.app/"
+	  },
+	{
 		title: "Masaka Menu",
 		skills: " React JS, CSS,React Router, npm , Github",
-		img: project07,
-		imgBig: project07Big,
+		img: "https://i.ibb.co/HY3LQD7/07-big.png",
+		imgBig: "https://i.ibb.co/HY3LQD7/07-big.png",
 		gitHubLink: "https://github.com/abaikb/masaka-sushi",
 		deployLink: "https://masaka-sushi.vercel.app/"
 	  },	  
 	{
 		title: "Volunteer's spot",
 		skills: "React, AJAX",
-		img: project01,
-		imgBig: project01Big,
+		img: "https://i.ibb.co/hYbdHbH/01.png",
+		imgBig: "https://i.ibb.co/hYbdHbH/01.png",
 		gitHubLink: "https://github.com/abaikb/final-exzam",
 		deployLink: "https://final-exzam-s429.vercel.app/"
 		
 	  },	  
 	{
-		title: 'Drag & Drop:',
-		img: project02,
-		imgBig: project02Big,
-		skills: 'JavaScript, HTML 5, CSS 3',
-		gitHubLink: 'https://codepen.io/abaikb/pen/VwEwNLZ',
-		deployLink: "https://codepen.io/abaikb/pen/VwEwNLZ/"
-	},
-	{
 		title: 'BOOK TRACKER',
-		img: project03,
-		imgBig: project03Big,
+		img: "https://i.ibb.co/cb9Jykr/03.png",
+		imgBig: "https://i.ibb.co/cb9Jykr/03.png",
 		skills: 'Work in pure JavaScript CRUD system through fake api, AJAX',
 		gitHubLink: 'https://github.com/abaikb/book-tracker-abai',
 		deployLink: "https://book-tracker-abai.vercel.app/"
@@ -59,16 +40,16 @@ const projects = [
 	},
 	{
 		title: "Photographer's Portfolio",
-		img: project04,
-		imgBig: project04Big,
+		img: "https://i.ibb.co/bszY96Z/06.png",
+		imgBig: "https://i.ibb.co/bszY96Z/06.png",
 		skills: 'site layout with HTML5, CSS 3, adaptation for desktop, tablet, mobile ',
 		gitHubLink: 'https://github.com/abaikb/js-portfoli',
 		deployLink: "https://js-portfoli.vercel.app/"
 	},
 	{
 		title: 'Slides City',
-		img: project05,
-		imgBig: project05Big,
+		img: "https://i.ibb.co/pft09mx/05-big.png",
+		imgBig: "https://i.ibb.co/pft09mx/05-big.png",
 		skills: 'JavaScript , HTML 5, CSS 3 ,animation',
 		gitHubLink: 'https://codepen.io/abaikb/pen/XWxWNoM',
 		deployLink: "https://codepen.io/abaikb/pen/XWxWNoM"
