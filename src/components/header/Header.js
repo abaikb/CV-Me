@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header__wrapper">
-        <img className="photoMe" src="https://i.ibb.co/HTWrJxk/photo-output.png" alt="" />
+        {/* <img className="photoMe" src="https://i.ibb.co/HTWrJxk/photo-output.png" alt="" /> */}
         <h1 className="header__title">
           <strong>
             Hi, my name is ABAI
